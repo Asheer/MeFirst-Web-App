@@ -1,0 +1,17 @@
+<body bgcolor="#79CDCD">
+<table cellpadding = "10" border = "1" bgcolor = "#d3d3d3"style="margin-top:10p">
+    <thead>
+        <th>Classes</th>
+        <th>Times</th>
+    </thead>
+    <tbody>
+        {% for class,times,rooms,prof in schedule %}
+        <tr>
+            <td>{{class}}</td>
+            <td>{{times}}</td>
+            <td>{{rooms}}</td>
+            <td>{{prof}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table> 

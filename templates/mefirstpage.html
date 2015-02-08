@@ -1,0 +1,17 @@
+<body bgcolor="#79CDCD">
+<table cellpadding="10">
+  <thead>
+    <th>Classes</th>
+    <th>Times</th>
+  </thead>
+  <tbody>      
+{% for class in schedule %}
+      <tr>
+      <td>{{class}}</td>
+  </tr>
+  <tr>
+  <td> {{des}}</td>
+  </tr>
+  </tbody>
+</table> 
+{% endfor %}
