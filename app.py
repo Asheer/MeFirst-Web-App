@@ -97,5 +97,5 @@ def scrape(username, password):
     app.logger.debug(classAndDes)
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 33507))
+    port = int(os.environ.get('PORT', 5000))
     app.run(port=port)
