@@ -23,6 +23,7 @@ times = []
 classAndDes = []
 timeStuff = []
 app = Flask(__name__)
+
 @app.route('/')
 @app.route('/login')
 def homepage():
