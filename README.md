@@ -1,6 +1,6 @@
 This project consists of web scraping techniques using the python BeautifulSoup library.
 
-As of now, this web app is hosted on pythonanywhere.com You can view it at the following URL: asheer.pythonanywhere.com
+As of now, this web app is hosted on asheer.pythonanywhere.com
 
 Description:
 
